@@ -8,7 +8,7 @@ const Header = () => {
       window.location.href = 'https://github.com/Gerson107'
   };
   return (
-    <header className='py-8'>
+    <header className='py-8' id="homet">
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           <a className='text-gradient text-[35px]' href='#homet'>
