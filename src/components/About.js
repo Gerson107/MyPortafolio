@@ -17,7 +17,7 @@ const About = (props) => {
   });
   return(
   <section 
-  id='about' 
+  id='aboutl' 
   className='section'
   ref={ref}>
     <div className='container mx-auto'>

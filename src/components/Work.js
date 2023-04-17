@@ -21,7 +21,7 @@ const Work = () => {
   
   
 
-  return <section id='work' className='section'>
+  return <section id='workt' className='section'>
     <div className='container h-auto mx-auto'>
       <div className='flex flex-col lg:flex-row gap-x-11'>
         <motion.div 

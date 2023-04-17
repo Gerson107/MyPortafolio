@@ -11,7 +11,7 @@ const Header = () => {
     <header className='py-8'>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          <a className='text-gradient text-[35px]' href='#home'>
+          <a className='text-gradient text-[35px]' href='#homet'>
             DANI DEV
           </a>
         

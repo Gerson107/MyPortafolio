@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Banner file={PDF}/>
       <Nav />
-      <About />
+      <About file={PDF}/>
       {/* <Services /> */}
       <Work />
       <Contact />

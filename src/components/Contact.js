@@ -6,7 +6,7 @@ import {fadeIn } from '../variants'
 import Swal from 'sweetalert2'
 
 const Contact = () => {
-  return <section id='contact' className='py-16 lg:section'>
+  return <section id='contactt' className='py-16 lg:section'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         <motion.div 
