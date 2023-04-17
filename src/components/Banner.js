@@ -21,14 +21,14 @@ const Banner = (props) => {
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
         <div className='flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 
-          variants={fadeIn('up', 0.3)} 
+          variants={fadeIn('up', 0.2)} 
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
           className='text-[55px] font-bold leading-[0.8] lg:text-left'>DANI <span>DEV</span>
           </motion.h1>
           <motion.div 
-          variants={fadeIn('up', 0.4)} 
+          variants={fadeIn('up', 0.2)} 
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
@@ -45,7 +45,7 @@ const Banner = (props) => {
             />
           </motion.div>
           <motion.p 
-          variants={fadeIn('up', 0.5)} 
+          variants={fadeIn('up', 0.2)} 
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
@@ -54,7 +54,7 @@ const Banner = (props) => {
           For that reason I have worked on front end projects as a backend and exploring DevOps Salesforce.
           </motion.p>
           <motion.div
-          variants={fadeIn('up', 0.6)} 
+          variants={fadeIn('up', 0.2)} 
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
@@ -66,7 +66,7 @@ const Banner = (props) => {
             <a href={props.file} className='text-gradient btn-link'>My Portfolio</a>
           </motion.div>
           <motion.div 
-          variants={fadeIn('up', 0.7)} 
+          variants={fadeIn('up', 0.2)} 
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
@@ -83,7 +83,7 @@ const Banner = (props) => {
           </motion.div>
         </div>
         <motion.div 
-       variants={fadeIn('down', 0.5)} 
+       variants={fadeIn('down', 0.2)} 
        initial="hidden" 
        whileInView={'show'} 
         className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
