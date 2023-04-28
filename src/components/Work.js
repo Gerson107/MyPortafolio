@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion'
-
+import { FormattedMessage } from 'react-intl';
 import { fadeIn} from '../variants'
 
 //import Img1 from '../assets/portfolio-img1.png';
@@ -25,13 +25,18 @@ const Work = () => {
         viewport={{once: false, amount: 0.7}} 
         className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           <div>
-            <h2 className='h2 leading-light text-accent'>My latest <br/> 
-            Work
+            <h2 className='h2 leading-light text-accent'>
+              <FormattedMessage
+            id="work.title"
+            />
             </h2>
             <p className='max-w-sm mb-16'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
-            </p>
-            <button onClick={ () => {    window.location.href = 'https://github.com/Gerson107'}} className='btn btn-sm'>View all projects</button>
+            <FormattedMessage
+            id="work.description"
+            />           </p>
+            <button onClick={ () => {    window.location.href = 'https://github.com/Gerson107'}} className='btn btn-sm'><FormattedMessage
+            id="work.button"
+            /></button>
           </div>
           <div onClick={ () => {    window.location.href = 'https://mytinerary-l2gz.onrender.com/'}} className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
             <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300' >

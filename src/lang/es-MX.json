@@ -1,0 +1,21 @@
+{
+    "header.title": "Dani Dev",
+    "header.button": "Trabaja conmigo",
+    "banner.title": "DANI DEV",
+    "banner.iam" : "Soy un",
+    "banner.text": "Desde que descubrí mi pasión por la programación no he dejado de aprender. Por esa razón he trabajado en proyectos front end como Back end y explorando DevOps Salesforce.",
+    "contacte.button": "Contactame",
+    "link": "Mi Portafolio",
+    "about.title": "ACERCA DE MI.",
+    "about.text": "Soy Freelancer Full Stack Developer con más de 2 años de experiencia.",
+    "about.description" :"Diseño y codifico algo hermoso y simple y amo lo que hago",
+    "about.experience" :"Años de Experiencia",
+    "about.project" :"Proyectos Completados",
+    "about.client" : "Clientes Satisfechos",
+    "work.title" : "MIS ULTIMOS TRABAJOS",
+    "work.description" : "Estos son al gunos de los proyectos en los que he participado",
+    "work.button" : "Ver todos los proyectos",
+    "contact.title" : "PONERSE EN CONTACTO",
+    "contact.subtitle" : "¡Trabajemos Juntos!",
+    "contact.button" : "Enviar mensaje"
+}

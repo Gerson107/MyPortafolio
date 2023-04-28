@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 //import Imagen1 from '../assets/fondpo1.png';
 import Imagen1 from '../assets/fondo1.png';
@@ -25,7 +26,10 @@ const Banner = (props) => {
           initial="hidden" 
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
-          className='text-[55px] font-bold leading-[0.8] lg:text-left'>DANI <span>DEV</span>
+          className='text-[55px] font-bold leading-[0.8] lg:text-left'>
+            <FormattedMessage
+            id="header.title"
+            defaultMessage="Dani Dev"/>
           </motion.h1>
           <motion.div 
           variants={fadeIn('up', 0.2)} 
@@ -33,7 +37,9 @@ const Banner = (props) => {
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
           className='mb-76 text-[36px] lg:text-[60px]  font-secondary font-semibold uppercase leading-[1]'>
-            <span className=' text-white mr-4'>I am a </span>
+            <span className=' text-white mr-4'><FormattedMessage
+            id="banner.iam"
+            defaultMessage="Dani Dev"/></span>
             <TypeAnimation sequence={[
               'Developer', 2000,
               'DevOps', 2000,
@@ -50,8 +56,9 @@ const Banner = (props) => {
           whileInView={'show'} 
           viewport={{once: false, amount: 0.7}} 
           className='mb-8 max-w-lg mx-auto lg:mx-0' >
-          Since I discovered my passion for programming I have not stopped learning.
-          For that reason I have worked on front end projects as a backend and exploring DevOps Salesforce.
+          <FormattedMessage
+            id="banner.text"
+            defaultMessage="Dani Dev"/>
           </motion.p>
           <motion.div
           variants={fadeIn('up', 0.2)} 
@@ -62,8 +69,12 @@ const Banner = (props) => {
             {/* <Document file={props.file}>
               <Page pageNumber={1}/>
             </Document> */}
-            <button onClick={handleClick} className='btn btn-lg'>Contact me</button>
-            <a href={props.file} className='text-gradient btn-link'>My Portfolio</a>
+            <button onClick={handleClick} className='btn btn-lg'>
+              <FormattedMessage
+                id="contacte.button"/>
+            </button>
+            <a href={props.file} className='text-gradient btn-link'><FormattedMessage
+                id="link"/></a>
           </motion.div>
           <motion.div 
           variants={fadeIn('up', 0.2)} 

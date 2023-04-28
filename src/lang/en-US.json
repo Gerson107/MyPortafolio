@@ -1,0 +1,21 @@
+{
+    "header.title": "Dani Dev",
+    "header.button": "Work with me",
+    "banner.title": "DANI DEV",
+    "banner.iam" : "I am",
+    "banner.text": "Since I discovered my passion for programming I have not stopped learning. For that reason I have worked on front end projects as a backend and exploring DevOps Salesforce.",
+    "contacte.button": "Contact me",
+    "link": "My Portafolio",
+    "about.title": "ABOUT ME.",
+    "about.text": "I' am Freelancer Full Stack Developer with over 2 yeears of experience",
+    "about.description" :"I design and code beatiful simple thing and I ❤ what I do",
+    "about.experience" :"Years of Experience",
+    "about.project" :"Proyects Completed",
+    "about.client" : "Clients Satisfied",
+    "work.title" : "MY LATEST WORK",
+    "work.description" : "These are some of the projects I have worked on",
+    "work.button" : "View all projects",
+    "contact.title" : "GET IN TOUCH",
+    "contact.subtitle" : "Let's work together!",
+    "contact.button" : "Send message"
+}
