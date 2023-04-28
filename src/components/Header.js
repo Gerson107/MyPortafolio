@@ -20,14 +20,15 @@ const Header = () => {
             defaultMessage="Dani Dev"/>
           </a>
         </div>
-        <div>
-        <button onClick={handleClick} className='btn btn-sm mr-4'>
+        <div className='flex flex-wrap justify-center gap-y-3'>
+        <button onClick={() => lenguages.initLenguaje('es-MX')}><img className='h-7 w-7 mr-2 ' src={es} alt="espana"/></button>
+					<button onClick={() => lenguages.initLenguaje('en-US')}><img className='h-7 w-7' src={en} alt="ingla"/></button>
+        <button onClick={handleClick} className='btn btn-sm ml-4 '>
         <FormattedMessage
             id="header.button"
             defaultMessage="Work With me"/>
           </button>
-        <button onClick={() => lenguages.initLenguaje('es-MX')}><img className='h-7 w-7 mr-2 mt-2' src={es} alt="espana"/></button>
-					<button onClick={() => lenguages.initLenguaje('en-US')}><img className='h-7 w-7' src={en} alt="ingla"/></button>
+        
         </div>
       </div>
     </header>
