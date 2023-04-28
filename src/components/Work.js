@@ -28,14 +28,16 @@ const Work = () => {
             <h2 className='h2 leading-light text-accent'>
               <FormattedMessage
             id="work.title"
+            defaultMessage="MY LATEST WORK"
             />
             </h2>
             <p className='max-w-sm mb-16'>
             <FormattedMessage
             id="work.description"
+            defaultMessage="These are some of the projects I have worked on"
             />           </p>
             <button onClick={ () => {    window.location.href = 'https://github.com/Gerson107'}} className='btn btn-sm'><FormattedMessage
-            id="work.button"
+            id="work.button" defaultMessage="View all Pojects"
             /></button>
           </div>
           <div onClick={ () => {    window.location.href = 'https://mytinerary-l2gz.onrender.com/'}} className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
