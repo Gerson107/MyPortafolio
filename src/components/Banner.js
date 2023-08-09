@@ -58,7 +58,7 @@ const Banner = (props) => {
             >
               <FormattedMessage
                 id="banner.text"
-                defaultMessage="Since I discovered my passion for programming I have not stopped learning. For that reason I have worked on front end projects as a backend and exploring DevOps Salesforce."
+                defaultMessage="Ever since I unearthed my fervor for programming, my insatiable quest for knowledge has been ceaselessly ongoing. This unwavering dedication has propelled me to delve into multifarious domains within the tech sphere, seamlessly transitioning between front-end and back-end projects, all while meticulously delving into the intricate realm of DevOps methodologies and harnessing the power of Salesforce integration."
               />
             </motion.p>
             <motion.div
