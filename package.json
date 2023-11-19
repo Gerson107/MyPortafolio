@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "file-server": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.9",
@@ -15,6 +16,7 @@
     "react-pdf": "^6.2.2",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-type-animation": "^3.2.0",
     "sweetalert2": "^11.7.3",
     "web-vitals": "^2.1.4"
   },
@@ -48,7 +50,6 @@
     "react-icons": "^4.7.1",
     "react-intersection-observer": "^9.4.1",
     "react-scroll": "^1.8.9",
-    "react-type-animation": "^2.1.2",
     "tailwindcss": "^3.2.4"
   }
 }

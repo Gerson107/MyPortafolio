@@ -8,15 +8,15 @@ import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
-import { pdfjs } from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const Banner = (props) => {
+const Banner = () => {
   const handleClick = () => {
     window.location.href =
       "https://www.linkedin.com/in/gerson-mejia-8992aa218/";
   };
+
+
   return (
     <section id="home" className="min-h-[85vh] flex items-center mb-4">
       <div className="container mx-auto">
@@ -77,10 +77,7 @@ const Banner = (props) => {
                   defaultMessage="Contact me"
                 />
               </button>
-              <a href={props.file} className="text-gradient btn-link">
-                <FormattedMessage id="link"
-                defaultMessage="My portafolio" />
-              </a>
+              
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.2)}

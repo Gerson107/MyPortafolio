@@ -3,10 +3,8 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { pdfjs } from "react-pdf";
 import { FormattedMessage } from "react-intl";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const About = (props) => {
   const handleClick = () => {
@@ -51,7 +49,7 @@ const About = (props) => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={2} duration={2} /> : null}
-                  k+
+                  +
                 </div>
                 <div className="font-primary text-sm tacking-[2px]">
                   <FormattedMessage
@@ -64,7 +62,7 @@ const About = (props) => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={15} duration={2} /> : null}
-                  k+
+                  +
                 </div>
                 <div className="font-primary text-sm tacking-[2px]">
                   <FormattedMessage id="about.project"
@@ -75,7 +73,7 @@ const About = (props) => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={10} duration={2} /> : null}
-                  k+
+                  +
                 </div>
                 <div className="font-primary text-sm tacking-[2px]">
                   <FormattedMessage id="about.client" 
@@ -88,10 +86,7 @@ const About = (props) => {
                 <FormattedMessage id="contacte.button"
                 defaultMessage="Contact me" />
               </button>
-              <a href={props.file} className="text-gradient btn-link">
-                <FormattedMessage id="link" 
-                defaultMessage="My portafolio"/>
-              </a>
+             
             </div>
           </motion.div>
         </div>
