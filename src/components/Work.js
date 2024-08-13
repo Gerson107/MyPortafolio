@@ -50,7 +50,7 @@ const Work = () => {
               onClick={() => {
                 window.location.href = "https://mytinerary-383s.onrender.com/";
               }}
-              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md cursor-pointer"
             >
               <img
                 className="group-hover:scale-125 transition-all duration-500 max-w-md"
@@ -97,7 +97,7 @@ const Work = () => {
               onClick={() => {
                 window.location.href = "https://blogdcfe.netlify.app/";
               }}
-              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md cursor-pointer"
             >
               <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img
@@ -117,7 +117,7 @@ const Work = () => {
               onClick={() => {
                 window.location.href = "https://funamsine.org/";
               }}
-              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md cursor-pointer"
             >
               <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img
@@ -137,7 +137,7 @@ const Work = () => {
               onClick={() => {
                 window.location.href = "https://gpt-3v.netlify.app/";
               }}
-              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md cursor-pointer"
             >
               <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img
