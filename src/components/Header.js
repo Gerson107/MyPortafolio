@@ -13,7 +13,7 @@ const Header = () => {
   const lenguages = useContext(langContext);
 
   return (
-    <header className='py-8' id="homet">
+    <header className='mt-10' id="homet">
       <div className='container mx-auto flex  justify-between items-center'>
         <div className='flex justify-between items-center'>
           <a className='text-gradient text-[35px]' href='#homet'>

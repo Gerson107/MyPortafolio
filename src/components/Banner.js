@@ -18,7 +18,7 @@ const Banner = () => {
 
 
   return (
-    <section id="home" className="min-h-[85vh] flex items-center mb-4">
+    <section id="home" className="section flex items-center ">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center font-secondary lg:text-left">

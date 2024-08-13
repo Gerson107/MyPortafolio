@@ -3,12 +3,15 @@ import { FormattedMessage } from "react-intl";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/mytinerary1.png";
 import Img2 from "../assets/gpt2.png";
-import Img3 from "../assets/mrwines1.png";
+import Img3 from "../assets/festmusic.png";
+import Img4 from "../assets/blogdecafe.png";
+import Img5 from "../assets/funamsine.png";
+
 
 const Work = () => {
   return (
     <section id="workt" className="section">
-      <div className="container h-auto mx-auto">
+      <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row">
           <div
             variants={fadeIn("right", 0.2)}
@@ -54,12 +57,33 @@ const Work = () => {
                 alt="imagen1"
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Full Stack</span>
+                <span className="text-gradient">FullStack</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3x1 text-while">Mytinerary</span>
               </div>
             </div>
+
+            <div
+              onClick={() => {
+                window.location.href = "https://festmusic.netlify.app/";
+              }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md cursor-pointer mb-10"
+            >
+              <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500 max-w-md"
+                src={Img3}
+                alt="imagen1"
+              />
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">FrontEnd</span>
+              </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3x1 text-while">Fest Music</span>
+              </div>
+            </div>
+            
           </div>
           <div
             variants={fadeIn("right", 0.2)}
@@ -70,21 +94,41 @@ const Work = () => {
           >
             <div
               onClick={() => {
-                window.location.href = "https://mrwines.onrender.com/";
+                window.location.href = "https://blogdcfe.netlify.app/";
               }}
               className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
             >
               <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500 max-w-md"
-                src={Img3}
+                src={Img4}
                 alt="imagen1"
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Full Stack</span>
+                <span className="text-gradient">FrontEnd</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-while">Mr.Wines</span>
+                <span className="text-3x1 text-black">Blog de Cafe</span>
+              </div>
+            </div>
+
+            <div
+              onClick={() => {
+                window.location.href = "https://funamsine.org/";
+              }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-x1 max-w-md"
+            >
+              <div className='group-hover"bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500 max-w-md"
+                src={Img5}
+                alt="imagen1"
+              />
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">FullStack</span>
+              </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3x1 text-while">Funamsine</span>
               </div>
             </div>
 
@@ -101,7 +145,7 @@ const Work = () => {
                 alt="imagen1"
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> Front End</span>
+                <span className="text-gradient"> FrontEnd</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3x1 text-while">GPT-3</span>
