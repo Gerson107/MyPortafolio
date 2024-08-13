@@ -4,7 +4,8 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { FormattedMessage } from "react-intl";
-
+import Imagen1 from "../assets/perfil2.png";
+ 
 
 const About = (props) => {
   const handleClick = () => {
@@ -15,7 +16,7 @@ const About = (props) => {
     threshold: 0.5,
   });
   return (
-    <section id="aboutl" className=" bg-black section" ref={ref}>
+    <section id="aboutl" className="section" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
           <motion.div
@@ -24,7 +25,10 @@ const About = (props) => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] bg-about2 bg-contain bg-no-repeat  mix-blend-lighten"
-          ></motion.div>
+          >
+           <img className="w-96" src={Imagen1} alt="imagem" />
+
+          </motion.div>
           <motion.div
             variants={fadeIn("left", 0.2)}
             initial="hidden"

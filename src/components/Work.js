@@ -1,5 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
+import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/mytinerary1.png";
 import Img2 from "../assets/gpt2.png";
@@ -10,15 +11,15 @@ import Img5 from "../assets/funamsine.png";
 
 const Work = () => {
   return (
-    <section id="workt" className="section">
+    <section id="workt" className="section lg:my-48">
       <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row">
-          <div
+          <motion.div
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 flex flex-col gap-y-20 mb-10 lg:mb-0"
+            viewport={{ once: false, amount: 0.2 }}
+            className="flex-1 flex flex-col gap-y-20 pb-32"
           >
             <div>
               <h2 className="h2 leading-light text-accent">
@@ -84,13 +85,13 @@ const Work = () => {
               </div>
             </div>
             
-          </div>
-          <div
-            variants={fadeIn("right", 0.2)}
+          </motion.div>
+          <motion.div
+            variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 flex flex-col gap-y-20"
+            viewport={{ once: false, amount: 0.2}}
+            className="flex-1 flex flex-col gap-y-20 pb-32"
           >
             <div
               onClick={() => {
@@ -151,7 +152,7 @@ const Work = () => {
                 <span className="text-3x1 text-while">GPT-3</span>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
